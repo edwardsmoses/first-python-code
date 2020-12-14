@@ -41,4 +41,9 @@ d[0] = 6;
 print('Array b : {}', format(repr(b)));
 print('Array d : {}', format(repr(d)));
 
+#casting in arrays
+castArray = np.array([0,1,2]);
+print(castArray.dtype);
 
+castArray = castArray.astype(np.float32);
+print(castArray.dtype);
