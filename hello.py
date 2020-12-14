@@ -47,3 +47,14 @@ print(castArray.dtype);
 
 castArray = castArray.astype(np.float32);
 print(castArray.dtype);
+
+
+#np Nan in aRrays -- mostly used for incomplete data
+npNanIntArray = np.array([np.nan, 1, 2]);
+print(repr(npNanIntArray));
+print(npNanIntArray.dtype);
+
+
+#np infinity -- used to represent infinity
+infinityArray = np.array([np.inf, 5]);
+print(repr(infinityArray));
